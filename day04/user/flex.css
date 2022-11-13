@@ -75,7 +75,16 @@ html, body, .container {
     width: 70px;
     height: 27px;
     margin-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
+}
+
+.data-d:hover{
+    color: #007fff;
+    cursor: pointer;
 }
 
 .data-u{
