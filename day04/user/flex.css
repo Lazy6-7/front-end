@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .container {
+    height: 100%;
+    background-color: #e2e2e2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card{
+    box-sizing: border-box;
+    height: 427px;
+    width: 266px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.user{
+    display: flex;
+    margin-bottom: 16px;
+
+}
+
+.user-img > img{
+        height: 48px;
+        width: 48px;
+        margin-right: 10px;
+}
+
+.user-inf{
+    height: 48px;
+    width: 48px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction:column;
+    font-size: 16px;
+}
+
+.user-inf > div:hover{
+    color: #007fff;
+    cursor: pointer;
+}
+
+.level{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #9ae5f3;
+    margin-bottom: 5px;
+}
+
+.data {
+    height: 58px;    /*158  */
+    width: 224px;     /* 224 */
+    border-bottom: 1px solid #e4e6eb80;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-d{
+    width: 70px;
+    height: 27px;
+    margin-bottom: 2px;
+    flex-grow: 1;
+}
+
+.data-u{
+    width: 70px;
+    height: 29px;
+    flex-grow: 1;
+}
+
+.data > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle{
+    width: 224px;
+    height: 160px;
+    display: flex;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #e4e6eb80;
+    padding-bottom: 10px;
+}
+
+.middle > div{
+    width: 104px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #252933;
+    font-size: 14px;
+    justify-content: space-around;
+}
+
+.middle > div:hover{
+    color: #007fff;
+    cursor: pointer;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    
+    color: #8a919f;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.bottom > div:hover{
+    color: #007fff;
+    cursor: pointer;
+}
